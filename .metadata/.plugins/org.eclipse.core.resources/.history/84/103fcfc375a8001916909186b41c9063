@@ -1,0 +1,59 @@
+package com.OHRM.Pages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
+
+import com.OHRM.TestBase.TestBase;
+
+public class LoginPage extends TestBase {
+	
+	@FindBy(name="txtUserName")
+	public static WebElement uname;
+	
+	@FindBy(name="txtPassword")
+	WebElement pass;
+	
+	@FindBy(name="Submit")
+	WebElement login;
+	
+	@FindBy(name="clear")
+	WebElement clear;
+	
+	public LoginPage(){
+		PageFactory.initElements(driver, com.OHRM.TestBase.TestBase.class);
+	}
+	
+	public void browserIntialization(){
+		intialization();
+	}
+	
+	public String getLogPageTitle(){
+		System.out.println(driver.getTitle());
+		return driver.getTitle();
+	}
+	
+	public boolean verifyelements() {
+		//Thread.sleep(10000);
+		Assert.assertTrue(uname.isDisplayed());
+		Assert.assertTrue(pass.isDisplayed());
+		Assert.assertTrue(login.isDisplayed());
+		Assert.assertTrue(clear.isDisplayed());
+		return true;
+	}
+	
+	public HomePage logInToPage(){
+		uname.sendKeys(prop.getProperty("username"));
+		pass.sendKeys(prop.getProperty("password"));
+		login.click();
+		return new HomePage();
+	}
+	
+	public void closBrow(){
+		driver.quit();
+	}
+	
+	
+
+}

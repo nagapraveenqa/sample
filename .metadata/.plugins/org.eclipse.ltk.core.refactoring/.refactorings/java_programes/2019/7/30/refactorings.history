@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;date_24_7_19.reoce_duplicate_from_given_string&apos; to &apos;remove_duplicate_from_given_string&apos;&#x0D;&#x0A;- Original project: &apos;java_programes&apos;&#x0D;&#x0A;- Original element: &apos;date_24_7_19.reoce_duplicate_from_given_string&apos;&#x0D;&#x0A;- Renamed element: &apos;date_24_7_19.remove_duplicate_from_given_string&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;reoce_duplicate_from_given_string&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;date_24_7_19{reoce_duplicate_from_given_string.java[reoce_duplicate_from_given_string" matchStrategy="1" name="remove_duplicate_from_given_string" qualified="false" references="true" similarDeclarations="false" stamp="1563964316562" textual="false" version="1.0"/>
+</session>

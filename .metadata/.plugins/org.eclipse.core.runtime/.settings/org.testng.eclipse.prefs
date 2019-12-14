@@ -1,0 +1,15 @@
+AmazonAutomation-master.outdir=/test-output
+AmazonAutomation-master.useProjectJar=false
+Cucumber.outdir=/test-output
+Cucumber.useProjectJar=false
+JavaProjects.outdir=/test-output
+JavaProjects.useProjectJar=true
+OrangeHRM.outdir=/test-output
+OrangeHRM.useProjectJar=false
+PageObjectModel-master.outdir=/test-output
+PageObjectModel-master.useProjectJar=false
+RESTAssure.outdir=/test-output
+RESTAssure.useProjectJar=false
+RestAassured.outdir=/test-output
+RestAassured.useProjectJar=false
+eclipse.preferences.version=1

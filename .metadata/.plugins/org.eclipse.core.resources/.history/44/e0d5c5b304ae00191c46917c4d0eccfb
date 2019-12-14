@@ -1,0 +1,14 @@
+package date_24_7_19;
+
+import java.util.HashMap;
+
+public class count_the_duplicates {
+public static void main(String[] args) {
+	String str="salmankhan";
+	char[] ch=str.toCharArray();
+	HashMap<Character, Integer> hm=new HashMap<>();
+	for(int i=0;i<=str.length();i++){
+		
+	}
+}
+}

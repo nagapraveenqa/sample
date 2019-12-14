@@ -1,0 +1,16 @@
+package date_24_7_19;
+
+import java.util.Locale;
+
+public class changeUppercase {
+public static void main(String[] args) {
+	String str="salmankhna salman";
+	char[] ch=str.toCharArray();
+	String st=str.toUpperCase();
+for(int i=0;i<=str.length()-1;i++){
+	System.out.println(ch[i]+" ");
+}
+
+	
+}
+}

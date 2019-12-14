@@ -1,0 +1,14 @@
+package date_24_7_19;
+
+public class separate_the_character_from_string {
+public static void main(String[] args) {
+	String str="salmankhan0421_@$";
+	
+	String cs=str.substring(0, 10);
+	System.out.println(cs);
+	String cs1=str.substring(10, 14);
+	System.out.println(cs1);
+	char[] ch=cs1.toCharArray();
+
+}
+}
